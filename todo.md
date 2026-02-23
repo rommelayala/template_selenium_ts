@@ -12,3 +12,5 @@
 - [x] Configurar Workflow de GitHub Actions para CI/CD.
 - [x] Documentación completa en `Readme.md`.
 - [x] Refinar plantillas de documentación (`template_feature.md`).
+- [x] Incluir URL de GitHub Pages en `Readme.md`.
+- [x] Añadir referencia a reportes locales en la documentación.

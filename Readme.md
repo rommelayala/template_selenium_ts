@@ -42,6 +42,10 @@ El proyecto incluye un workflow de GitHub Actions que:
 1. Ejecuta los tests en cada `push` o `pull_request`.
 2. Publica los reportes automáticamente en la rama de **GitHub Pages**.
 
+### 🌐 Portal de Reportes
+- **Online**: Puedes ver el historial en tiempo real aquí: 👉 **[Cielo Testing Portal](https://rommelayala.github.io/template_selenium_ts/)**
+- **Local**: Abre el archivo `docs/index.html` en tu navegador para ver los reportes generados localmente.
+
 ---
 *Mantenido con ❤️ por Rommel & Cielo* ✨
 

@@ -34,6 +34,6 @@ src/
 3. **Entonces** debería ver el dashboard principal.
 
 ## 🧪 Estado de Ejecución
-- **Entorno local**: ✅ Pasado
+- **Entorno local**: ✅ Pasado (`docs/index.html`)
 - **GitHub Actions**: ✅ Pasado
-- **Reporte Online**: [Link a GH Pages]
+- **Reporte Online**: [Cielo Testing Portal](https://rommelayala.github.io/template_selenium_ts/)
