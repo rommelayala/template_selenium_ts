@@ -4,7 +4,7 @@
     "description": "Automation framework template using Selenium, TypeScript, and Cucumber",
     "main": "index.js",
     "scripts": {
-        "test:e2e": "REPORT_FILE=reports/report-$(date +%Y-%m-%d_%H-%M-%S).html; cucumber-js --format html:\"$REPORT_FILE\"",
+        "test:e2e": "REPORT_FILE=docs/report-$(date +%Y-%m-%d_%H-%M-%S).html; cucumber-js --format html:\"$REPORT_FILE\"",
         "test:e2e:headless": "HEADLESS_MODE=true npm run test:e2e"
     },
     "devDependencies": {
