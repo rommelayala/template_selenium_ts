@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historial de Reportes E2E</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #0f172a;
+            --card: #1e293b;
+            --text: #f8fafc;
+        }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            margin: 0;
+        }
+        h1 { font-size: 2.5rem; margin-bottom: 0.5rem; color: var(--primary); }
+        p { color: #94a3b8; margin-bottom: 2rem; }
+        .list {
+            width: 100%;
+            max-width: 800px;
+            display: grid;
+            gap: 1rem;
+        }
+        .item {
+            background: var(--card);
+            padding: 1.2rem;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s, background 0.2s;
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid #334155;
+        }
+        .item:hover {
+            transform: translateY(-3px);
+            background: #334155;
+            border-color: var(--primary);
+        }
+        .name { font-weight: 600; font-size: 1.1rem; }
+        .date { font-size: 0.9rem; color: #94a3b8; }
+        .badge {
+            background: #065f46;
+            color: #34d399;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+        footer { margin-top: 3rem; font-size: 0.8rem; color: #475569; }
+    </style>
+</head>
+<body>
+    <h1>Cielo Testing Portal</h1>
+    <p>Historial automático de reportes de ejecución E2E</p>
+    
+    <div class="list">
+        
+            <a href="report-2026-02-23_18-22-07.html" class="item">
+                <div>
+                    <div class="name">report-2026-02-23_18-22-07.html</div>
+                    <div class="date">2/23/2026, 6:22:18 PM</div>
+                </div>
+                <div class="badge">Success</div>
+            </a>
+        
+            <a href="report-2026-02-23_18-45-34.html" class="item">
+                <div>
+                    <div class="name">report-2026-02-23_18-45-34.html</div>
+                    <div class="date">2/23/2026, 6:21:48 PM</div>
+                </div>
+                <div class="badge">Success</div>
+            </a>
+        
+            <a href="report-2026-02-23_18-33-49.html" class="item">
+                <div>
+                    <div class="name">report-2026-02-23_18-33-49.html</div>
+                    <div class="date">2/23/2026, 6:21:48 PM</div>
+                </div>
+                <div class="badge">Success</div>
+            </a>
+        
+            <a href="report-2026-02-23_18-12-05.html" class="item">
+                <div>
+                    <div class="name">report-2026-02-23_18-12-05.html</div>
+                    <div class="date">2/23/2026, 6:21:48 PM</div>
+                </div>
+                <div class="badge">Success</div>
+            </a>
+        
+    </div>
+
+    <footer>Mantenido con ❤️ por Rommel & Cielo</footer>
+</body>
+</html>
+    
