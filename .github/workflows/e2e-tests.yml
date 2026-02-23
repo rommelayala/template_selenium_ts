@@ -38,6 +38,9 @@ jobs:
         run: npm run test:e2e:headless
         continue-on-error: true
 
+      - name: Generate Report Index and Cleanup
+        run: node scripts/manage-reports.js
+
       - name: Upload Report Artifact
         uses: actions/upload-artifact@v4
         with:

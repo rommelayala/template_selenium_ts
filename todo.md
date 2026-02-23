@@ -7,7 +7,7 @@
 
 ## Completado
 - [x] Configurar entorno base (Selenium + TS + Cucumber).
-- [x] Ajustar skills del agente Helenita al proyecto.
+- [x] Ajustar skills del agente al proyecto.
 - [x] Reestructurar carpetas (`reports` -> `docs`) para GitHub Pages.
 - [x] Configurar Workflow de GitHub Actions para CI/CD.
 - [x] Documentación completa en `Readme.md`.

@@ -43,5 +43,5 @@ El proyecto incluye un workflow de GitHub Actions que:
 2. Publica los reportes automáticamente en la rama de **GitHub Pages**.
 
 ---
-*Mantenido con ❤️ por Rommel & Helenita* ✨
+*Mantenido con ❤️ por Rommel & Cielo* ✨
 
