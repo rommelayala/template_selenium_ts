@@ -3,7 +3,6 @@
 ## Pendientes
 - [ ] Implementar Page Objects para el flujo de login.
 - [ ] Crear escenario Cucumber para validación de errores en login.
-- [ ] Configurar reporte automático en CI (GitHub Actions).
 
 ## Completado
 - [x] Configurar entorno base (Selenium + TS + Cucumber).

@@ -35,6 +35,7 @@ npm install
 - `src/hooks/`: Setup y teardown del navegador.
 - `.agent/`: Skills y configuración de inteligencia para el asistente.
 - `docs/`: Reportes HTML generados (listos para GitHub Pages).
+- `scripts/`: Scripts de utilidad (ej. gestión de reportes).
 - `.github/workflows/`: Configuración de automatización para GitHub.
 
 ## 🤖 Integración Continua (CI/CD)
@@ -47,5 +48,5 @@ El proyecto incluye un workflow de GitHub Actions que:
 - **Local**: Abre el archivo `docs/index.html` en tu navegador para ver los reportes generados localmente.
 
 ---
-*Mantenido con ❤️ por Rommel & Cielo* ✨
+* Copyright 2026 Rommel Ayala ✨ All rights reserved.*
 

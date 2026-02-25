@@ -497,3 +497,10 @@ app/data/input/*
 app/data/output/*
 !app/data/.gitkeep
 
+# Ignore skills files but keep directory structure
+.agent/skills/**
+!.agent/skills/**/
+!.agent/skills/**/.gitkeep
+
+# Ignore specific scripts
+scripts/manage-reports.js
