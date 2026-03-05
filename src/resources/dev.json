@@ -1,0 +1,8 @@
+{
+    "envName": "Desarrollo",
+    "baseUrl": "http://localhost:3001",
+    "timeout": 15000,
+    "db": {
+        "path": "suite_fiscal.db"
+    }
+}

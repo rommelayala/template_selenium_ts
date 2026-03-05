@@ -504,3 +504,8 @@ app/data/output/*
 
 # Ignore specific scripts
 scripts/manage-reports.js
+
+### Allure Reports ###
+docs/report-*.html
+docs/*.html
+!docs/index.html

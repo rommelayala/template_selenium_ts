@@ -1,0 +1,8 @@
+{
+    "envName": "Producción",
+    "baseUrl": "mi-produccion-app.com (NO ESTA DEFINIDO)",
+    "timeout": 30000,
+    "db": {
+        "path": "suite_fiscal_prod.db"
+    }
+}

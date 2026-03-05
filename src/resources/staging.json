@@ -1,0 +1,10 @@
+{
+    "envName": "Staging",
+    "baseUrl": "https://mi-staging-app.com",
+    "timeout": 35000,
+    "user": "qa_staging_user",
+    "pass": "staging_pass_789",
+    "db": {
+        "path": "suite_fiscal_staging.db"
+    }
+}

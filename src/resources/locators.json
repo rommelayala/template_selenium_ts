@@ -1,0 +1,11 @@
+{
+    "transactiones": {
+        "h2": {
+            "text": {
+                "primary": "data-testid:transactions-title",
+                "fallback_1": "xpath://h2[contains(text(), 'Editor de Transacciones')]",
+                "fallback_2": "css:h2"
+            }
+        }
+    }
+}

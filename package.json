@@ -4,8 +4,11 @@
     "description": "Automation framework template using Selenium, TypeScript, and Cucumber",
     "main": "index.js",
     "scripts": {
-        "test:e2e": "REPORT_FILE=docs/report-$(date +%Y-%m-%d_%H-%M-%S).html; cucumber-js --format html:\"$REPORT_FILE\"",
-        "test:e2e:headless": "HEADLESS_MODE=true npm run test:e2e"
+        "test:e2e": "cucumber-js --format html:\"docs/report-$(date +'%Y-%m-%d_%H-%M-%S').html\"",
+        "test:e2e:headless": "HEADLESS_MODE=true npm run test:e2e --",
+        "test:dev": "TEST_ENV=dev npm run test:e2e --",
+        "test:staging": "TEST_ENV=staging npm run test:e2e --",
+        "test:prod": "TEST_ENV=prod npm run test:e2e --"
     },
     "devDependencies": {
         "@cucumber/cucumber": "^12.6.0",
@@ -16,5 +19,8 @@
         "selenium-webdriver": "^4.40.0",
         "ts-node": "^10.9.2",
         "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "rommel-anti-pom": "file:../ROMMEL_ANTI_POM"
     }
 }
